@@ -2,7 +2,7 @@
   "name": "lib-blockies",
   "version": "1.0.0",
   "description": "A library for creating Ethereum identicons in a structured way",
-  "main": "index.js",
+  "main": "dist/lib-blockies.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
@@ -17,6 +17,8 @@
     "blockies"
   ],
   "devDependencies": {
+    "eslint": "4.17.0",
+    "eslint-loader": "1.9.0",
     "prettier": "1.10.2",
     "uglifyjs-webpack-plugin": "1.1.6",
     "webpack": "3.10.0"
