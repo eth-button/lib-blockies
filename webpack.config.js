@@ -16,7 +16,8 @@ module.exports = {
   },
   entry: "./index.js",
   output: {
-    filename: "dist/" + package.name + ".js"
+    filename: "dist/" + package.name + ".js",
+    library: "Blockies"
   },
   plugins: [new UglifyJSPlugin()]
 };
