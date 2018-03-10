@@ -14,8 +14,8 @@ function newRand(seed) {
 export const BLOCKIE_SIZE = 8;
 
 class Blockies {
-  constructor(seed) {
-    this.randseed = newRand(seed);
+  constructor(address) {
+    this.randseed = newRand(address.toLowerCase());
     this.color = this.createColor();
     this.bgcolor = this.createColor();
     this.spotcolor = this.createColor();
